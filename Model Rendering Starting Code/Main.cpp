@@ -136,7 +136,7 @@ void display() {
 // ----------------------------------------------------------
 
     // Translate to set location
-    glTranslatef(0.0f, 0.0f, 0.0f);
+    glTranslatef(0.3f, -0.4f, 0.0f);
 
     // Rotate to the correct angles 
     glRotatef(rotate_y, 0.0f, 1.0f, 0.0f); // Yaw, y axis
@@ -144,7 +144,7 @@ void display() {
     glRotatef(0, 0.0f, 0.0f, 1.0f); // Roll, z axis
 
     // Scale to desired dimensions
-    glScalef(1.0f, 1.0f, 1.0f);
+    glScalef(0.7f, 0.4f, 1.0f);
 
 
 
